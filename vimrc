@@ -58,4 +58,4 @@ scriptencoding utf-8
 " key mapping
 "--------------
 let mapleader = ","
-et g:snipMate = { 'snippet_version' : 1 }
+let g:snipMate = { 'snippet_version' : 1 }
