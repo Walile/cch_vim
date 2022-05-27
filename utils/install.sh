@@ -1,6 +1,5 @@
-# my CCH Vimrc and plugins installer
-#
-# created by Eddie Kao <eddie@5xruby.tw>
+# The project created by Eddie Kao <eddie@5xruby.tw>
+# I fork and adjust for PHP developer
 # just for installing Vim configurations and plugins within one command.
 
 vim_folder=~/.vim
@@ -48,7 +47,7 @@ then
 fi
 
 # check if Git is installed
-hash git >/dev/null && /usr/bin/env git clone https://github.com/kaochenlong/cch.git ~/.vim || {
+hash git >/dev/null && /usr/bin/env git clone https://github.com/Walile/cch_vim.git ~/.vim || {
   echo "Sorry, Git is not installed yet!"
   exit
 }
@@ -63,9 +62,8 @@ vim +'PlugInstall --sync' +qa
 
 echo ""
 echo "\033[0;34mNice! Seems everything is going well.\033[0m"
-echo "\033[0;34mGithub Repository: https://github.com/kaochenlong/cch\033[0m"
+echo "\033[0;34mGithub Repository: https://github.com/Walile/cch_vim\033[0m"
 echo "\033[0;34mfeel free to fork it :)\033[0m"
-echo "\033[0;34m<Eddie Kao> eddie@5xruby.tw\033[0m"
 echo ""
 echo "\033[0;34mPeace :)\033[0m"
 echo ""

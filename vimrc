@@ -21,10 +21,13 @@ call plug#begin('~/.vim/plugged')
   Plug 'mileszs/ack.vim'
   Plug 'airblade/vim-gitgutter'
 
-  " for ruby/rails development
-  Plug 'vim-ruby/vim-ruby'
-  Plug 'tpope/vim-rails'
-  Plug 'thoughtbot/vim-rspec'
+  " for php/laravel development
+  Plug 'StanAngeloff/php.vim'
+  Plug 'tpope/vim-dispatch'
+  Plug 'tpope/vim-projectionist'
+  Plug 'noahfrederick/vim-composer' 
+  Plug 'noahfrederick/vim-laravel'
+  
 
   " for vue.js development
   Plug 'leafOfTree/vim-vue-plugin'
