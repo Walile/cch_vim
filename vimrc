@@ -27,17 +27,16 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-projectionist'
   Plug 'noahfrederick/vim-composer' 
   Plug 'noahfrederick/vim-laravel'
-  
-
-  " for vue.js development
-  Plug 'leafOfTree/vim-vue-plugin'
-call plug#end()
 
   " for javascript development 
   Plug 'pangloss/vim-javascript'    " JavaScript support
   Plug 'leafgarland/typescript-vim' " TypeScript syntax
   Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
   Plug 'jparise/vim-graphql'        " GraphQL syntax
+
+  " for vue.js development
+  Plug 'leafOfTree/vim-vue-plugin'
+call plug#end()
 
 "--------------
 " Settings
