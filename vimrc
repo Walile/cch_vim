@@ -33,6 +33,12 @@ call plug#begin('~/.vim/plugged')
   Plug 'leafOfTree/vim-vue-plugin'
 call plug#end()
 
+  " for javascript development 
+  Plug 'pangloss/vim-javascript'    " JavaScript support
+  Plug 'leafgarland/typescript-vim' " TypeScript syntax
+  Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
+  Plug 'jparise/vim-graphql'        " GraphQL syntax
+
 "--------------
 " Settings
 "--------------
